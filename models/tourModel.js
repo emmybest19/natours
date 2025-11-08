@@ -32,6 +32,8 @@ const TourSchema = new mongoose.Schema({
   startDates: [Date]
 });
 
+
+//implementing virtual properties 
 const Tour = mongoose.model('Tour', TourSchema);
 
 module.exports = Tour;
